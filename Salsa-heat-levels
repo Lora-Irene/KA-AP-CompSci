@@ -1,0 +1,12 @@
+var level;
+
+if (rating <5000) {
+    level = "mild";
+} else if (rating < 20000) {
+        level = "medium";
+    } else if (rating < 70000) {
+            level = "hot";
+        } else {
+            level = "extreme";
+        }
+    
