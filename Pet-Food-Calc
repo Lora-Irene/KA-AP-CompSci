@@ -1,0 +1,22 @@
+var isNeutered = true;
+var isDog = false;
+var weightLB = 13;
+
+//Calculate weight in KG and RER (Resting Energy Requirement)
+var weightKG = weightLB / 2.2;
+var restingEnergyReq = 70 * Math.pow (weightKG, 0.75);
+
+//Output daily caloric needs
+if (isDog) {
+    if (isNeutered) {
+        println (1.6 * restingEnergyReq);
+    } else {
+        println (1.8 * restingEnergyReq);
+    }
+} else { //is cat!
+    if (isNeutered){
+        println (1.2 * restingEnergyReq);
+    } else {
+        println (1.4 * restingEnergyReq);
+    }
+}
