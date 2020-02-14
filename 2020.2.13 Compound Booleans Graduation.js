@@ -26,6 +26,9 @@ if (cspGrade >= 75 ||
 progGrade >= 75 ||
 summerCamp === true) {
     document.write ("You're eligible for AP CS A!");
+} else {
+    document.write ("You are not eligible for AP CS A");
+} else {
 }
 
 //Set variables for grades in science classes
@@ -36,4 +39,6 @@ var physicsGrade
 if (biologyGrade > 65 &&
 (chemistryGrade > 65 || physicsGrade > 65)) {
     document.write ("Science requirement satisfied");
+} else {
+    document.write ("Science requirement not satisfied")
 }
