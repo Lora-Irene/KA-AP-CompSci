@@ -1,5 +1,6 @@
-if (CumulativeGPA > 2.0) {
-    if (totalUnits >= 120) {
+if (CumulativeGPA > 2.0 && 
+    totalUnits >= 120 && 
+    languageUnits >= 8) {
         document.write ("You can graduate!")
     }
 }
