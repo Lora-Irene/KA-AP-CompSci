@@ -9,7 +9,7 @@ if (CumulativeGPA > 2.0 &&
     languageUnits >= 8) {
         document.write ("You can graduate!")
     }
-}
+    
 //Send email if not able to graduate
 if (!(CumulativeGPA > 2.0 && 
     totalUnits >= 120 && 
