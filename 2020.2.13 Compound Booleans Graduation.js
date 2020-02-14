@@ -28,7 +28,6 @@ summerCamp === true) {
     document.write ("You're eligible for AP CS A!");
 } else {
     document.write ("You are not eligible for AP CS A");
-} else {
 }
 
 //Set variables for grades in science classes
