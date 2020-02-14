@@ -1,5 +1,8 @@
-var level;
+//Set Variables for rating of the spiciness of peppers 
+var rating //scoville heat units
+var level; // will be calucated by script
 
+//calculates a level (mild, medium, hot, or extreme) of pepper spiciness based on scoville heat units.
 if (rating <5000) {
     level = "mild";
 } else if (rating < 20000) {
