@@ -1,3 +1,4 @@
+//Set Variables for neutered or not, Dog or cat, and weight in lbs
 var isNeutered = true;
 var isDog = false;
 var weightLB = 13;
