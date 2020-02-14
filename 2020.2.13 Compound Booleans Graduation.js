@@ -10,7 +10,12 @@ if (CumulativeGPA > 2.0 &&
         document.write ("You can graduate!")
     }
 }
-
+//Send email if not able to graduate
+if (!(CumulativeGPA > 2.0 && 
+    totalUnits >= 120 && 
+    languageUnits >= 8)) {
+        document.write ("Warning: You have not met the requirements to graduate!")
+    }
 //set variables for eligibility to participate in AP Comp Sci A class
 var cspGrade = 67
 var progGrade = 88
