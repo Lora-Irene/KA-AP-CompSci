@@ -11,5 +11,9 @@ if (temperature < 40 || weather === "rain") {
 //based on weather and mode of transportation do I need an umbrella?
 if (weather === "rain" &&
 transportMode === "walking") {
-    document.write ("Take an umbrella")
+    document.write ("Take an umbrella");
+}
+// Is it a gardening day?
+if (!(temperature < 70 || weather === "rain")) {
+    document.write ("Gardening day!");
 }
