@@ -9,7 +9,7 @@ if (CumulativeGPA > 2.0 &&
     languageUnits >= 8) {
         document.write ("You can graduate!")
     }
-    
+
 //Send email if not able to graduate
 if (!(CumulativeGPA > 2.0 && 
     totalUnits >= 120 && 
@@ -26,4 +26,14 @@ if (cspGrade >= 75 ||
 progGrade >= 75 ||
 summerCamp === true) {
     document.write ("You're eligible for AP CS A!");
+}
+
+//Set variables for grades in science classes
+var biologyGrade
+var chemistryGrade
+var physicsGrade
+//Required to pass Biology with 65 or greater and either chemistry or physics
+if (biologyGrade > 65 &&
+(chemistryGrade > 65 || physicsGrade > 65)) {
+    document.write ("Science requirement satisfied");
 }
